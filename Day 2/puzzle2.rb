@@ -1,5 +1,5 @@
 # Leer el archivo
-file = File.open('advent_of_code/input2.txt')
+file = File.open('advent_of_code/Day2/input1.txt')
 # Obtener un array con los valores
 all_combinations = file.readlines.map(&:chomp)
 

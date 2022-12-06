@@ -1,6 +1,6 @@
 # PUZZLE 1
 # Leer archivo
-file = File.open('advent_of_code/input1.txt')
+file = File.open('advent_of_code/Day1/input1.txt')
 
 # Convertir los datos a array por el delimitador \n
 raw_string = file.readlines.map(&:chomp)
